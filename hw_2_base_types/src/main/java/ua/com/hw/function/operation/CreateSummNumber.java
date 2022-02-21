@@ -8,7 +8,7 @@ public class CreateSummNumber {
     public static void run() {
         System.out.println("the first variant\n" +
                 "press line please");
-        OperationScan.scanForInput();
+
         String input = OperationScan.scanForInput();
         input = input.replaceAll("\\D","");
         String number[] = input.split("");

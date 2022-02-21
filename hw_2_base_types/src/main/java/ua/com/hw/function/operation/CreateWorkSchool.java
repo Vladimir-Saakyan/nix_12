@@ -11,6 +11,10 @@ public class CreateWorkSchool {
         input = input.replaceAll("\\d","");
         String text[] = input.split("");
 
+        for (int t = 0; t<text.length;t++){
+
+        }
+
 
     }
 }
