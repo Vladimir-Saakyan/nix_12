@@ -1,19 +1,19 @@
 package ua.com.hw.function.operation;
 
+import ua.com.hw.function.ChoiseMethod;
 import ua.com.hw.function.OperationScan;
 
 public class CreateWorkSchool {
     public static void run(){
-        System.out.println("the second variant\n" +
-                "press line please");
-        OperationScan.scanForInput();
-        String input = OperationScan.scanForInput();
-        input = input.replaceAll("\\d","");
-        String text[] = input.split("");
+        System.out.println("the third variant\n" +
+                "press number lesson");
+        int lesson = OperationScan.scanForChoiseMethod();
 
-        for (int t = 0; t<text.length;t++){
+        lesson = 540 + lesson * 45 + (lesson/2)*5 + ((lesson-1)/2) * 15;
+        int h = lesson / 60;
+        int m = lesson % 60;
 
-        }
+        System.out.println("lesson ends at " + h+":"+m);
 
 
     }

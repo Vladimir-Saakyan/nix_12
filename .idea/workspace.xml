@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11660a0f-7da0-4291-b3d4-ec279531c434" name="Changes" comment="create 1 variant on 2 hw">
+    <list default="true" id="11660a0f-7da0-4291-b3d4-ec279531c434" name="Changes" comment="create 2 variant on 2 hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/OperationScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/OperationScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/ChoiseMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/ChoiseMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateKolSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateKolSymbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateSummNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateSummNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateWorkSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_types/src/main/java/ua/com/hw/function/operation/CreateWorkSchool.java" afterDir="false" />
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645310633287</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create 2 variant on 2 hw">
+      <created>1645421045935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645421045935</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +180,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="delete directory" />
     <MESSAGE value="create 1 variant on 2 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="create 1 variant on 2 hw" />
+    <MESSAGE value="create 2 variant on 2 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 2 variant on 2 hw" />
   </component>
 </project>

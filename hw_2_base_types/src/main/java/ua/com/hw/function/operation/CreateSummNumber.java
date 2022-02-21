@@ -21,7 +21,7 @@ public class CreateSummNumber {
 
         System.out.println("your sum element - " + sumNumber);
 
-        ChoiseMethod.choiseMethod();
+
 
     }
 }

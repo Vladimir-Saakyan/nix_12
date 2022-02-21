@@ -28,7 +28,7 @@ public class ChoiseMethod {
                 break;
             case 0:
                 System.out.println("Bye");
-                break;
+
         }
     }
 }

@@ -19,7 +19,7 @@ public class CreateKolSymbol {
         List<String> list = List.of(simbol);
         Map<String, Integer> razbor = list.stream().collect(Collectors.toMap(e -> e, e->1,Integer::sum));
         razbor.forEach((k, v) -> System.out.println("simbol - " + k + " = " + v));
-        ChoiseMethod.choiseMethod();
+
     }
 }
 
