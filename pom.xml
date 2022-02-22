@@ -11,6 +11,7 @@
     <modules>
         <module>hw_2_base_types</module>
         <module>hw_3_strings</module>
+        <module>hw_4_start_oop</module>
     </modules>
     <dependencies>
         <dependency>
