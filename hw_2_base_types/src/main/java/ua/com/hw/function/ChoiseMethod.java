@@ -11,7 +11,8 @@ public class ChoiseMethod {
                 "=========================\n" +
                 "1-sum of digits\n" +
                 "2-number of each letter\n" +
-                "3-work school");
+                "3-work school\n" +
+                "0-exit");
         int choise = scan.scanForChoiseMethod();
         switch (choise){
             case 1:

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hw_2_base_types/hw_2_base_types.iml" filepath="$PROJECT_DIR$/hw_2_base_types/hw_2_base_types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw_3_strings/hw_3_strings.iml" filepath="$PROJECT_DIR$/hw_3_strings/hw_3_strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/nix_2012.iml" filepath="$PROJECT_DIR$/nix_2012.iml" />
     </modules>
   </component>

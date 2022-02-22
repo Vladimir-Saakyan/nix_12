@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hw_2_base_types</artifactId>
+    <artifactId>hw_3_strings</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
