@@ -3,10 +3,14 @@ package ua.com.hw.operation;
 import java.util.Scanner;
 
 public class Scan {
-    Scanner sc;
+    static Scanner sc = new Scanner(System.in);
 
-    public void scanForMethod(){
+    public static int scanForMethod(){
         int number = sc.nextInt();
+        return number;
     }
-    public void scanForLine(){}
+    public static String scanForLine(){
+        String line = sc.nextLine();
+        return line;
+    }
 }
