@@ -13,4 +13,9 @@ public class Scan {
         String line = sc.nextLine();
         return line;
     }
+    public static Integer scanForIndex(){
+        int q = sc.nextInt();
+        sc.close();
+        return q;
+    }
 }
