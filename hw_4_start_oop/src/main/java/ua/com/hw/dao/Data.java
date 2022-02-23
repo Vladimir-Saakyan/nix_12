@@ -4,7 +4,6 @@ import ua.com.hw.entity.Client;
 
 import java.util.Arrays;
 import java.util.UUID;
-import java.util.regex.Pattern;
 
 public class Data {
     private Client[] clients = new Client[0];
@@ -28,7 +27,7 @@ public class Data {
     public void remove(String id){
         for (Client client:clients) {
             if (client.getId().equals(id)){
-                for (int i = (Arrays.asList(clients).indexOf(client))+1; i<size; i--){
+                for (int i = (Arrays.asList(clients).indexOf(client))+1; i<size; i++){
                     clients[i-1]= clients[i];
                 }
                 clients = Arrays.copyOf(clients, size -1);
@@ -42,7 +41,8 @@ public class Data {
             if(client.getId().equals(id)){
                 return client;
             }
-        }return null;
+        }
+        return null;
     }
 
     public Client[] findAll(){

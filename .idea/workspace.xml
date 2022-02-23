@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11660a0f-7da0-4291-b3d4-ec279531c434" name="Changes" comment="in progress 3 variant in 3 hw">
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/hw_4_start_oop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/StartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/ClientOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="11660a0f-7da0-4291-b3d4-ec279531c434" name="Changes" comment="in progress  4 hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3_strings/src/main/java/ua/com/hw/operation/methods/ReverseByIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_3_strings/src/main/java/ua/com/hw/operation/methods/ReverseByIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/dao/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/dao/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_4_start_oop/src/main/java/ua/com/hw/service/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645551178687</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="in progress  4 hw">
+      <created>1645570962354</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645570962354</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +279,7 @@
     <MESSAGE value="create 1 variant in 3 hw" />
     <MESSAGE value="in progress 1 variant in 3 hw" />
     <MESSAGE value="in progress 3 variant in 3 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="in progress 3 variant in 3 hw" />
+    <MESSAGE value="in progress  4 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="in progress  4 hw" />
   </component>
 </project>

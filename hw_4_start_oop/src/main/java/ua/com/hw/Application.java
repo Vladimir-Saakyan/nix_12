@@ -1,10 +1,12 @@
 package ua.com.hw;
 
 import ua.com.hw.entity.Client;
+import ua.com.hw.service.Service;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.Locale;
 
 public class Application {
@@ -13,13 +15,19 @@ public class Application {
         System.out.println("Please enter to START");
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
             String line  = reader.readLine();
-            navigation();
+
+
             while (true){
+//                navigation();
+//                caseValue(reader);
                 System.out.println();
+                navigation();
+                caseValue(reader);
             }
         } catch (Exception e) {
             System.out.println("error" + e);
         }
+
 
     }
     private static void navigation(){
@@ -43,14 +51,50 @@ public class Application {
 
     }
 
+    private static void findAll() {
+        Client[] clients =Service.findall();
+        for (Client client:clients){
+            System.out.println("client -> " + client);
+        }
+    }
+
+    private static void findById(BufferedReader reader) throws IOException {
+        System.out.println("how id for find client");
+        String id = reader.readLine();
+        Service.findById(id);
+    }
+
+    private static void remove(BufferedReader reader) throws IOException {
+        System.out.println("please, enter id Client");
+        String id = reader.readLine();
+        Service.remove(id);
+    }
+
     private static void create(BufferedReader reader) throws IOException{
+        Client client = new Client();
         System.out.println("please, enter Client name");
+
         String name = reader.readLine();
         System.out.println("please, enter Client order");
         String order = reader.readLine();
-        Client client = new Client();
         client.setName(name);
-        client.setOrder(ClientName.valueOf(name.toUpperCase()));
-        servise.create(client);
+        client.setOrder(order);
+        Service.create(client);
+    }
+    private static void update(BufferedReader reader) throws IOException{
+        System.out.println("please, enter id client:");
+        String id = reader.readLine();
+        Client client = Service.findById(id);
+
+        System.out.print("enter the client name: -> ");
+        String name = reader.readLine();
+        client.setName(name);
+
+        System.out.println("enter the client order: ->");
+        String order = reader.readLine();
+        client.setOrder(order.toUpperCase());
+
+        System.out.println("client is update");
+
     }
 }

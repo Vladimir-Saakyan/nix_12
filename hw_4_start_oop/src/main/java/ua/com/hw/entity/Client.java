@@ -24,17 +24,17 @@ public class Client extends BaseEntity{
     }
 
     @Override
-    public boolean equals(Object o){
-        if (this==o) return true;
-        if(!(o instanceof Client)) return false;
-        if(!super.equals(o)) return false;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         Client client = (Client) o;
-        return Object.equals(name, client.name) && order = client.order;
+        return Objects.equals(name, client.name) && Objects.equals(order, client.order);
     }
 
     @Override
-    public int hashCode(){
-        return Object.hash(super.hashCode(), name, order);
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), name, order);
     }
 
     @Override

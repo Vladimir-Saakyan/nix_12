@@ -4,9 +4,9 @@ import ua.com.hw.dao.Data;
 import ua.com.hw.entity.Client;
 
 public class Service {
-    private final Data data = new Data();
+    private static final Data data = new Data();
 
-    public void create(Client client){
+    public static void create(Client client){
         data.create(client);
     }
 
@@ -14,15 +14,18 @@ public class Service {
         data.update(client);
     }
 
-    public void remove(String id) {
+    public static void remove(String id) {
         data.remove(id);
     }
 
-    public Client findById(String id) {
-        return data.findById(id);
+    public static void findById(String id){
+        data.findById(id);
     }
+//    public static  Client findById(String id) {
+//        return data.findById(id);
+//    }
 
-    public Client[] findall(){
+    public static Client[] findall(){
         return data.findAll();
     }
 }
